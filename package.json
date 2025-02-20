@@ -1,13 +1,18 @@
 {
-  "name": "download",
+  "name": "localhost-downloader",
   "version": "1.0.0",
-  "description": "",
+  "description": "Download files from localhost",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "download",
+    "localhost",
+    "file",
+    "downloader"
+  ],
+  "author": "Feng Liu",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
